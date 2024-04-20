@@ -4,6 +4,10 @@
     <ProjectReference Include="..\CrewLibrary\CrewLibrary.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="json/" />
+  </ItemGroup>
+
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>

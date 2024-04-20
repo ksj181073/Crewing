@@ -1,6 +1,6 @@
 namespace Crewing
 {
-    class CrewEvent
+    public class CrewEvent
     {
         public int? Id { get; set; }
         public CrewEventType? EventType { get; set; }

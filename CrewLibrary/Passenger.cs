@@ -1,6 +1,6 @@
 // namespace Crewing
 // {
-//     class Passenger : Person, ISeagoing
+//     public class Passenger : Person, ISeagoing
 //     {
 //         public string TitledName() { return ("Passenger " + this.Name()).Trim(); }
 //         public void SignOn()

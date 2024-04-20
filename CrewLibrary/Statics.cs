@@ -5,7 +5,7 @@ using Salaros.Configuration;
 
 namespace Crewing
 {
-    static class Statics
+    public static class Statics
     {
         static public string conf_file = @"crewapp.conf";
         public static string GetConfigValue(string section, string key)

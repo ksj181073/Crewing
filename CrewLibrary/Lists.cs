@@ -1,6 +1,6 @@
 namespace Crewing
 {
-    sealed class Lists
+    public sealed class Lists
     {
         private static Lists? lists = null;
         private Lists() {

@@ -1,6 +1,6 @@
 namespace Crewing
 {
-    class CrewMember
+    public class CrewMember
     {
         public int Id { get; set; }
         public Person Person { get; set; }

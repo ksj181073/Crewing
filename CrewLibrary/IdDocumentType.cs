@@ -1,6 +1,6 @@
 namespace Crewing
 {
-    class IdDocumentType
+    public class IdDocumentType
     {
         public int Id { get; set; }
         public string? Name { get; set;}

@@ -1,6 +1,6 @@
 namespace Crewing
 {
-    sealed class Vessel
+    public class Vessel
     {
         private static Vessel? vessel = null;
         public List<CrewMember> Crew = new List<CrewMember>();

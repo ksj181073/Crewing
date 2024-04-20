@@ -2,7 +2,7 @@ using Microsoft.Data.Sqlite;
 
 namespace Crewing
 {
-    class Person
+    public class Person
     {
         private string? _firstname;
         private string? _lastname;

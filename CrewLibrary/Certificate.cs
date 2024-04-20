@@ -2,7 +2,7 @@ using Microsoft.Data.Sqlite;
 
 namespace Crewing
 {
-    class Certificate
+    public class Certificate
     {
         public int? Id { get; set; }
         public string? Number { get; set;}

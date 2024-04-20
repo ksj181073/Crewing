@@ -1,0 +1,74 @@
+{
+    "Name": "Boulder",
+    "PreviousNames": [
+        "Blue Agena",
+        "Maersk Boulder"
+    ],
+    "IMO": "9151577",
+    "Type": "AHTS",
+    "ClassificationSociety": "BV register of Shipping",
+    "Flag": "Denmark",
+    "Owner": 
+        {"Name": "JD-Crafts A/S",
+        "Address": "Nybovej 9",
+        "Zip": "7500",
+        "City": "Holstebro",
+        "Country": "Denmark"
+    }
+    ,
+    "PortOfRegistry": "Struer",
+    "OfficialNo": "D.3670",
+    "CallSign": "OZNB2",
+    "MMSI": "219296000",
+    "Yard": 
+        {"Name": "Simek A.S Mek. Verksted-skipsbyggeri, Norway",
+        "BuildNumber": "94",
+        "Dates": {
+            "BuildingContract": "1996-02-07",
+            "KeelLaid": "1997-07-23",
+            "Delivery": "1998-01-30"
+        }
+    },
+    "Tonnage": {
+        "GT": 4376,
+        "NT": 1312,
+        "LightShip": {
+            "Displacement": 4509,
+            "LCG_AP": 37.503,
+            "TCG_CL": 0.099,
+            "VCG_BL": 8.307
+        },
+        "DWT": {
+            "TropicalFreshwater": 0,
+            "Freshwater": 0,
+            "Tropical": 0,
+            "Summer": 3841,
+            "Winter": 0,
+            "WinterNorthAtlantic": 0
+        }
+    },
+    "Drafts": {
+        "TropicalFreshwater": 0,
+        "Freshwater": 0,
+        "Tropical": 0,
+        "Summer": 7.516,
+        "Winter": 0,
+        "WinterNorthAtlantic": 0
+    },
+    "Freeboard": {
+        "TropicalFreshwater": 0,
+        "Freshwater": 1.338,
+        "Tropical": 1.495,
+        "Summer": 1.652,
+        "Winter": 0,
+        "WinterNorthAtlantic": 0
+    },
+    "Dimensions": {
+        "LOA": 84.60,
+        "LPP": 75.00,
+        "Breath_Moulded": 18.80,
+        "Depth_Moulded": 9.00
+    },
+    "NoOfPassengers": 10,
+    "Plate_Thickness": 0.015
+}

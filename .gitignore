@@ -1,0 +1,5 @@
+/CrewLibrary/bin/*
+/CrewLibrary/obj/*
+/.mono/*
+
+*.db

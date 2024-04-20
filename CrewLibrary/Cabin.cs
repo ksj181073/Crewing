@@ -31,12 +31,13 @@ namespace Crewing
             else
                 return false;
         }
-        public static Cabin GetCabin(string Cabin_No)
+        public static Cabin? GetCabin(string Cabin_No)
         {
             foreach (Deck deck in Vessel.GetVessel.Decks)
-                foreach (Cabin cabin in deck.Cabins)
-                    if (cabin.Number == Cabin_No)
-                        return cabin;
+                if (deck.Cabins != null)
+                    foreach (Cabin cabin in deck.Cabins)
+                        if (cabin.Number == Cabin_No)
+                            return cabin;
             
             return null;
         }

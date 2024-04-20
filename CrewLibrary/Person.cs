@@ -244,7 +244,7 @@ namespace Crewing
 
             person.Gender = gender;
         }
-        public static void RemovePerson(Person person)
+        public static void RemovePerson(Person? person)
         {
             foreach (CrewMember crewMember in Vessel.GetVessel.Crew)
             {

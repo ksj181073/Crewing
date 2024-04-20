@@ -131,8 +131,8 @@ namespace Crewing
                     string? line = reader.ReadLine();
                     var values = line?.Split(';');
                     
-                    string issue_date = "";
-                    string exp_date = "";
+                    string? issue_date = "";
+                    string? exp_date = "";
                     DateTime e_date = new DateTime();
 
                     if(values[13] != "")
@@ -142,7 +142,7 @@ namespace Crewing
                             DateTime i_date = DateTime.Parse(values[14]);
                             issue_date = String.Format("{0,0:D4}-{1,0:D2}-{2,0:D2}", i_date.Year, i_date.Month, i_date.Day);
                         }
-                        catch (FormatException fe)
+                        catch (FormatException)
                         {
                             issue_date = null;
                         }
@@ -152,7 +152,7 @@ namespace Crewing
                             e_date = DateTime.Parse(values[15]);
                             exp_date = String.Format("{0,0:D4}-{1,0:D2}-{2,0:D2}", e_date.Year, e_date.Month, e_date.Day);
                         }
-                        catch (FormatException fe)
+                        catch (FormatException)
                         {
                             exp_date = null;
                         }
@@ -188,7 +188,7 @@ namespace Crewing
         }
         public static void InitiateDb()
         {
-            string db_name = "jd-crew.db";
+            // string db_name = "jd-crew.db";
 
             /*CreateDB(db_name);
 

@@ -129,21 +129,22 @@ namespace Crewing
         {
             EditIssuingCountry(idDocument, issuingCountry.Id);
         }
-        public static void RemoveIdDocument(IdDocument idDocument)
+        public static void RemoveIdDocument(IdDocument? idDocument)
         {
-            using (SqliteConnection con = new SqliteConnection("data source=" + Statics.GetConfigValue("FILES", "Db")))
-            {                
-                using (SqliteCommand del_command = con.CreateCommand())
-                {
-                    con.Open();
+            if (idDocument != null)
+                using (SqliteConnection con = new SqliteConnection("data source=" + Statics.GetConfigValue("FILES", "Db")))
+                {                
+                    using (SqliteCommand del_command = con.CreateCommand())
+                    {
+                        con.Open();
 
-                    del_command.CommandText = $"DELETE FROM IdDocuments WHERE Id={idDocument.Id}";
-                    del_command.ExecuteNonQuery();
+                        del_command.CommandText = $"DELETE FROM IdDocuments WHERE Id={idDocument.Id}";
+                        del_command.ExecuteNonQuery();
 
-                    Lists.GetLists.IdDocuments.Remove(idDocument);
-                    idDocument = null;
+                        Lists.GetLists.IdDocuments.Remove(idDocument);
+                        idDocument = null;
+                    }
                 }
-            }
         }
     }
 }

@@ -53,7 +53,7 @@ namespace Crewing
                 Console.WriteLine("SQLITE_EXCEPTION: " + ex.Message);
             }
         }
-        public static string SqlSelectIdFromTable(string db_name, string sql_command)
+        public static string? SqlSelectIdFromTable(string db_name, string sql_command)
         {
             try
             {

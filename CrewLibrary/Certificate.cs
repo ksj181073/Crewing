@@ -132,21 +132,22 @@ namespace Crewing
 
             certificate.IssuingAuthority = issuingAuthority;
         }
-        public static void RemoveCertificate(Certificate certificate)
+        public static void RemoveCertificate(Certificate? certificate)
         {
-            using (SqliteConnection con = new SqliteConnection("data source=" + Statics.GetConfigValue("FILES", "Db")))
-            {                
-                using (SqliteCommand del_command = con.CreateCommand())
-                {
-                    con.Open();
+            if (certificate != null) 
+                using (SqliteConnection con = new SqliteConnection("data source=" + Statics.GetConfigValue("FILES", "Db")))
+                {                
+                    using (SqliteCommand del_command = con.CreateCommand())
+                    {
+                        con.Open();
 
-                    del_command.CommandText = $"DELETE FROM Certificates WHERE Id={certificate.Id}";
-                    del_command.ExecuteNonQuery();
+                        del_command.CommandText = $"DELETE FROM Certificates WHERE Id={certificate.Id}";
+                        del_command.ExecuteNonQuery();
 
-                    Lists.GetLists.Certificates.Remove(certificate);
-                    certificate = null;
+                        Lists.GetLists.Certificates.Remove(certificate);
+                        certificate = null;
+                    }
                 }
-            }
         }
     }
 }

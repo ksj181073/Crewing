@@ -116,7 +116,7 @@ namespace Crewing
             }
         
         }
-        public static CertificateType GetCertificateType(int CertificateType_Id)
+        public static CertificateType? GetCertificateType(int CertificateType_Id)
         {
             foreach (CertificateType certificateType in Lists.GetLists.CertificateTypes)
                 if (certificateType.Id == CertificateType_Id)
@@ -124,7 +124,7 @@ namespace Crewing
             
             return null;
         }
-        public static CertificateType GetCertificateType(string CertificateType_Name)
+        public static CertificateType? GetCertificateType(string CertificateType_Name)
         {
             foreach (CertificateType certificateType in Lists.GetLists.CertificateTypes)
                 if (certificateType.Name == CertificateType_Name)

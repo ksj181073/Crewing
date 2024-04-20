@@ -14,7 +14,7 @@ namespace Crewing
             ISO2_Code = iso2;
             ISO3_Code = iso3;
         }
-        public static Nationality GetNationality(int Nationality_Id)
+        public static Nationality? GetNationality(int Nationality_Id)
         {
             foreach (Nationality nationality in Lists.GetLists.Nationalities)
                 if (nationality.Id == Nationality_Id)
@@ -22,7 +22,7 @@ namespace Crewing
             
             return null;
         }
-        public static Nationality GetNationality(string Nationality_Name)
+        public static Nationality? GetNationality(string Nationality_Name)
         {
             foreach (Nationality nationality in Lists.GetLists.Nationalities)
                 if (nationality.Name == Nationality_Name)

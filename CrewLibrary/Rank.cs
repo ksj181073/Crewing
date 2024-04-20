@@ -12,7 +12,7 @@ namespace Crewing
             Department = new Department();
             Name = "";
         }
-        public static Rank GetRank(int Rank_Id)
+        public static Rank? GetRank(int Rank_Id)
         {
             foreach (Rank rank in Lists.GetLists.Ranks)
                 if (rank.Id == Rank_Id)
@@ -20,7 +20,7 @@ namespace Crewing
             
             return null;
         }
-        public static Rank GetRank(string Rank_Name)
+        public static Rank? GetRank(string Rank_Name)
         {
             foreach (Rank rank in Lists.GetLists.Ranks)
                 if (rank.Name == Rank_Name)

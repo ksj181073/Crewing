@@ -1,3 +1,5 @@
+#nullable disable
+
 using Microsoft.Data.Sqlite;
 
 namespace Crewing

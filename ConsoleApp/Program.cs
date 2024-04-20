@@ -1,4 +1,6 @@
-﻿using Newtonsoft.Json.Linq;
+﻿#nullable disable
+
+using Newtonsoft.Json.Linq;
 
 namespace Crewing
 {

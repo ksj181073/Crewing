@@ -1,3 +1,5 @@
+#nullable disable
+
 // dotnet add package Microsoft.Data.Sqlite
 using Microsoft.Data.Sqlite;
 // dotnet add package System.Data.SQLite

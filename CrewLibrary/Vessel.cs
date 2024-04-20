@@ -1,3 +1,5 @@
+#nullable disable
+
 namespace Crewing
 {
     public class Vessel

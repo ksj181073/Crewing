@@ -9,6 +9,8 @@ namespace Crewing
 {
     public static class Statics
     {
+        // Windows path from bin folder:
+        // static public string conf_file = @"..\..\..\crewapp.conf";
         static public string conf_file = @"crewapp.conf";
         public static string GetConfigValue(string section, string key)
         {

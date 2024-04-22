@@ -6,6 +6,7 @@ namespace Crewing
 {
     static class Program
     {
+        // inserting comment
         static void InitiateData()
         {
             try

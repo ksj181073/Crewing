@@ -2,4 +2,5 @@
 /*/obj/*
 /.mono/*
 
+# Ignoring database file
 # *.db

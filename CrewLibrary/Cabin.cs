@@ -1,5 +1,7 @@
 namespace Crewing
 {
+    // This is the Cabin class
+    
     public sealed class Cabin
     {
         private int _personsOccupying;

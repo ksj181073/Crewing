@@ -97,7 +97,11 @@
           "runtimes/win-arm64/native/sni.dll": {
             "rid": "win-arm64",
             "assetType": "native",
+<<<<<<< HEAD
             "fileVersion": "4.6.25512.1"
+=======
+            "fileVersion": "0.0.0.0"
+>>>>>>> bc61286 (comitting)
           }
         }
       },
@@ -106,7 +110,11 @@
           "runtimes/win-x64/native/sni.dll": {
             "rid": "win-x64",
             "assetType": "native",
+<<<<<<< HEAD
             "fileVersion": "4.6.25512.1"
+=======
+            "fileVersion": "0.0.0.0"
+>>>>>>> bc61286 (comitting)
           }
         }
       },
@@ -115,7 +123,11 @@
           "runtimes/win-x86/native/sni.dll": {
             "rid": "win-x86",
             "assetType": "native",
+<<<<<<< HEAD
             "fileVersion": "4.6.25512.1"
+=======
+            "fileVersion": "0.0.0.0"
+>>>>>>> bc61286 (comitting)
           }
         }
       },
@@ -299,12 +311,20 @@
           "runtimes/win-x64/native/SQLite.Interop.dll": {
             "rid": "win-x64",
             "assetType": "native",
+<<<<<<< HEAD
             "fileVersion": "1.0.117.0"
+=======
+            "fileVersion": "0.0.0.0"
+>>>>>>> bc61286 (comitting)
           },
           "runtimes/win-x86/native/SQLite.Interop.dll": {
             "rid": "win-x86",
             "assetType": "native",
+<<<<<<< HEAD
             "fileVersion": "1.0.117.0"
+=======
+            "fileVersion": "0.0.0.0"
+>>>>>>> bc61286 (comitting)
           }
         }
       },

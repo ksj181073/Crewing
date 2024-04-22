@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Documents\\bin\\dev\\Crewing\\ConsoleApp\\ConsoleApp.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\master\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+    "/home/kristian/bin/dev/Crewing/ConsoleApp/ConsoleApp.csproj": {}
+  },
+  "projects": {
+    "/home/kristian/bin/dev/Crewing/ConsoleApp/ConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kristian/bin/dev/Crewing/ConsoleApp/ConsoleApp.csproj",
+        "projectName": "ConsoleApp",
+        "projectPath": "/home/kristian/bin/dev/Crewing/ConsoleApp/ConsoleApp.csproj",
+        "packagesPath": "/home/kristian/.nuget/packages/",
+        "outputPath": "/home/kristian/bin/dev/Crewing/ConsoleApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/kristian/.nuget/NuGet/NuGet.Config"
+>>>>>>> bc61286 (comitting)
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,8 +43,13 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Documents\\bin\\dev\\Crewing\\CrewLibrary\\CrewLibrary.csproj": {
                 "projectPath": "C:\\Documents\\bin\\dev\\Crewing\\CrewLibrary\\CrewLibrary.csproj"
+=======
+              "/home/kristian/bin/dev/Crewing/CrewLibrary/CrewLibrary.csproj": {
+                "projectPath": "/home/kristian/bin/dev/Crewing/CrewLibrary/CrewLibrary.csproj"
+>>>>>>> bc61286 (comitting)
               }
             }
           }
@@ -52,6 +74,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+<<<<<<< HEAD
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
@@ -70,11 +93,14 @@
               "version": "[6.0.29, 6.0.29]"
             }
           ],
+=======
+>>>>>>> bc61286 (comitting)
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.118\\RuntimeIdentifierGraph.json"
         }
       }
@@ -90,6 +116,23 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\master\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.421/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/kristian/bin/dev/Crewing/CrewLibrary/CrewLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kristian/bin/dev/Crewing/CrewLibrary/CrewLibrary.csproj",
+        "projectName": "CrewLibrary",
+        "projectPath": "/home/kristian/bin/dev/Crewing/CrewLibrary/CrewLibrary.csproj",
+        "packagesPath": "/home/kristian/.nuget/packages/",
+        "outputPath": "/home/kristian/bin/dev/Crewing/CrewLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/kristian/.nuget/NuGet/NuGet.Config"
+>>>>>>> bc61286 (comitting)
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -141,6 +184,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+<<<<<<< HEAD
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
@@ -155,12 +199,18 @@
               "version": "[6.0.29, 6.0.29]"
             }
           ],
+=======
+>>>>>>> bc61286 (comitting)
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.118\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.421/RuntimeIdentifierGraph.json"
+>>>>>>> bc61286 (comitting)
         }
       }
     }

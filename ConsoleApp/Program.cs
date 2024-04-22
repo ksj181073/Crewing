@@ -8,6 +8,7 @@ namespace Crewing
     {
         static void InitiateData()
         {
+            // this is initiating the data
             try
             {
                 Vessel v = Vessel.GetVessel;

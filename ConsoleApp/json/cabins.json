@@ -12,9 +12,9 @@
                 "Crew": true,
                 "Passenger": true,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "302",
@@ -24,9 +24,9 @@
                 "Crew": true,
                 "Passenger": true,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "303",
@@ -36,9 +36,9 @@
                 "Crew": true,
                 "Passenger": true,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "304",
@@ -48,9 +48,9 @@
                 "Crew": true,
                 "Passenger": true,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "305",
@@ -60,21 +60,33 @@
                 "Crew": true,
                 "Passenger": true,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
-                "Number": "306/310",
-                "Name": "Gymnasium",
+                "Number": "306",
+                "Name": "",
                 "PhoneNo": "47",
+                "Persons": 2,
+                "Crew": true,
+                "Passenger": true,
+                "X_start": 0,
+                "Width": 0,
+                "Y_start": 0,
+                "Height": 0
+            },
+            {
+                "Number": "310",
+                "Name": "Gymnasium",
+                "PhoneNo": "36",
                 "Persons": 0,
                 "Crew": false,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "307",
@@ -84,9 +96,9 @@
                 "Crew": true,
                 "Passenger": true,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "308",
@@ -96,9 +108,9 @@
                 "Crew": true,
                 "Passenger": true,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "309",
@@ -108,9 +120,9 @@
                 "Crew": false,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "311",
@@ -120,9 +132,9 @@
                 "Crew": false,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "312",
@@ -132,9 +144,9 @@
                 "Crew": false,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "313",
@@ -144,9 +156,9 @@
                 "Crew": false,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             }
         ]
     },
@@ -163,9 +175,9 @@
                 "Crew": true,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "402",
@@ -175,9 +187,9 @@
                 "Crew": true,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "403",
@@ -187,9 +199,9 @@
                 "Crew": true,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "404",
@@ -199,9 +211,9 @@
                 "Crew": true,
                 "Passenger": true,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "405",
@@ -211,9 +223,9 @@
                 "Crew": true,
                 "Passenger": true,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "406",
@@ -223,9 +235,9 @@
                 "Crew": true,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "407",
@@ -235,9 +247,9 @@
                 "Crew": true,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "408",
@@ -247,9 +259,9 @@
                 "Crew": true,
                 "Passenger": true,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "409",
@@ -259,9 +271,9 @@
                 "Crew": true,
                 "Passenger": true,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "410",
@@ -271,9 +283,9 @@
                 "Crew": true,
                 "Passenger": true,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "411",
@@ -283,9 +295,9 @@
                 "Crew": false,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "412",
@@ -295,9 +307,9 @@
                 "Crew": false,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "413",
@@ -307,9 +319,9 @@
                 "Crew": false,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             }
         ]
     },
@@ -326,9 +338,9 @@
                 "Crew": true,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "502",
@@ -338,9 +350,9 @@
                 "Crew": true,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "503",
@@ -350,9 +362,9 @@
                 "Crew": true,
                 "Passenger": true,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "504",
@@ -362,9 +374,9 @@
                 "Crew": false,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "505",
@@ -374,9 +386,9 @@
                 "Crew": true,
                 "Passenger": true,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "506",
@@ -386,9 +398,9 @@
                 "Crew": true,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "507",
@@ -398,9 +410,9 @@
                 "Crew": true,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "508",
@@ -410,9 +422,9 @@
                 "Crew": true,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "509",
@@ -422,9 +434,9 @@
                 "Crew": true,
                 "Passenger": true,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "510",
@@ -434,9 +446,9 @@
                 "Crew": false,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "511",
@@ -446,9 +458,9 @@
                 "Crew": false,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             }
         ]
     },
@@ -465,9 +477,9 @@
                 "Crew": true,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "602",
@@ -477,9 +489,9 @@
                 "Crew": true,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "603",
@@ -489,9 +501,9 @@
                 "Crew": true,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "604",
@@ -501,9 +513,9 @@
                 "Crew": false,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "605",
@@ -513,9 +525,9 @@
                 "Crew": false,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             },
             {
                 "Number": "606/607",
@@ -525,9 +537,9 @@
                 "Crew": false,
                 "Passenger": false,
                 "X_start": 0,
-                "Width":0,
+                "Width": 0,
                 "Y_start": 0,
-                "Height":0
+                "Height": 0
             }
         ]
     }

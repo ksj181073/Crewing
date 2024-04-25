@@ -1,4 +1,6 @@
-﻿namespace WinFormApp;
+﻿using Crewing;
+
+namespace WinFormApp;
 
 partial class Form1
 {
@@ -32,6 +34,22 @@ partial class Form1
         this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
         this.ClientSize = new System.Drawing.Size(800, 450);
         this.Text = "Form1";
+
+        Button btn_test = new Button();
+        btn_test.Text = "PRESS!";
+        Controls.Add(btn_test);
+        btn_test.Click += on_btn_test_click;
+
+        //void EventHandler btn_test_Click(object sender, string args)
+        //{
+
+        //}
+    }
+
+    private void on_btn_test_click(object sender, EventArgs e)
+    {
+        //Console.WriteLine("");
+        Testing();
     }
 
     #endregion

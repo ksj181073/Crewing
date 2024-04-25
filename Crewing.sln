@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrewLibrary", "CrewLibrary.csproj", "{23C962FF-4708-401F-92B2-03839594F2DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrewLibrary", "CrewLibrary\CrewLibrary.csproj", "{23C962FF-4708-401F-92B2-03839594F2DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormApp", "..\WinFormApp\WinFormApp.csproj", "{151D8309-872A-4ADE-8A49-4323E4F5940B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormApp", "WinFormApp\WinFormApp.csproj", "{151D8309-872A-4ADE-8A49-4323E4F5940B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
